@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: darkturquoise;
+}
+
+.card {
+  background-color: crimson;
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+}
+.card img {
+  border-radius: 20px;
+}
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: auto;
+  justify-content: center;
+  width: 70%;
+}
