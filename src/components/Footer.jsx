@@ -1,7 +1,11 @@
 import React from "react";
 
 const Footer = () => {
-  return <div className="footer">OVDE CE DA BUDE FOOTER</div>;
+  return (
+    <footer className="footer">
+      by Brkic Dragan, All Rights Reserved &copy; {new Date().getFullYear()}
+    </footer>
+  );
 };
 
 export default Footer;

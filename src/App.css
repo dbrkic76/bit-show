@@ -6,7 +6,7 @@
 }
 
 .card {
-  background-color: lightseagreen;
+  background-color: transparent;
   text-align: center;
   padding: 15px;
   border-radius: 20px;
@@ -24,4 +24,11 @@
   margin: auto;
   justify-content: center;
   width: 70%;
+}
+.footer {
+  height: 5vh;
+  background-color: darkslategrey;
+  color: white;
+  align-content: center;
+  text-align: center;
 }

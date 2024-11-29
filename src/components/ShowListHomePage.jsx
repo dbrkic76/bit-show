@@ -5,6 +5,7 @@ const ShowListHomePage = ({ data, setSelectedShow }) => {
   const topFifty = data
     .sort((a, b) => b.rating.average - a.rating.average)
     .slice(0, 50);
+
   return (
     <div className="cards-wrapper">
       {topFifty.map((item) => {
