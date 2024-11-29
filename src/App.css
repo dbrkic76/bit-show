@@ -6,13 +6,16 @@
 }
 
 .card {
-  background-color: crimson;
+  background-color: lightseagreen;
   text-align: center;
   padding: 15px;
   border-radius: 20px;
 }
 .card img {
   border-radius: 20px;
+}
+.card h3 {
+  border-radius: 10px;
 }
 .cards-wrapper {
   display: flex;
