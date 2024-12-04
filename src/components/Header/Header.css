@@ -1,0 +1,34 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+
+  font-size: 15px;
+}
+
+h1 {
+  color: white;
+}
+
+.search-input {
+  width: 350px;
+  height: 30px;
+}
+
+.search-results {
+  position: absolute;
+  background-color: gray;
+  border: 1px solid #ccc;
+  width: 350px;
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.result-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
